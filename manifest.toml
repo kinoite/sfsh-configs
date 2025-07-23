@@ -1,0 +1,25 @@
+[info]
+version = "1.0"
+last_updated = "2025-07-23T11:30:00Z"
+
+[plugins.pinnacle-of-prettiness]
+description = "The beautiful, multi-line prompt theme featuring Nerd Font glyphs."
+repo_url = "https://github.com/kinoite/sfsh-theme-pinnacle.git"
+version = "0.1.0"
+keywords = ["theme", "prompt", "nerdfont", "customization"]
+long_description = """
+Pinnacle of Prettiness is a highly customizable multi-line prompt theme 
+designed for sfsh. It requires a Nerd Font for proper display of icons.
+Features include: time, user@host, current directory, Git status.
+"""
+
+[plugins.sfsh-utils]
+description = "A collection of common utility functions and helper modules for sfsh."
+repo_url = "https://github.com/yourusername/sfsh-utils.git"
+version = "0.5.0"
+keywords = ["utility", "helper", "functions", "core"]
+dependencies = ["pinnacle-of-prettiness"]
+post_install_notes = """
+After installing sfsh-utils, you might want to add 'require(\"sfsh-utils\")'
+to your .sfshrc.lua file to load its functions.
+"""
