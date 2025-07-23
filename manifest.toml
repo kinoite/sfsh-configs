@@ -4,7 +4,7 @@ last_updated = "2025-07-23T11:30:00Z"
 
 [plugins.pinnacle-of-prettiness]
 description = "The beautiful, multi-line prompt theme featuring Nerd Font glyphs."
-repo_url = "https://github.com/kinoite/sfsh-theme-pinnacle.git"
+repo_url = "https://github.com/kinoite/pinnacle-of-prettiness.git"
 version = "0.1.0"
 keywords = ["theme", "prompt", "nerdfont", "customization"]
 long_description = """
